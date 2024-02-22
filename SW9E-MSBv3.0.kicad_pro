@@ -57,17 +57,6 @@
       ],
       "drc_exclusions": [
         "lib_footprint_issues|145955455|90745066|255d92ad-2af0-44d2-b93d-f66e7ce2af69|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|129008100|112877600|ed0bc3fa-c977-4ece-a478-07606ddc000b|84db56ec-3e5b-4f43-90b1-23a80c8e2d1c",
-        "silk_edge_clearance|129008100|112877600|ed0bc3fa-c977-4ece-a478-07606ddc000b|aaa8bf65-4a08-4fce-96a1-debebcaacbbd",
-        "silk_edge_clearance|129008100|117957600|ed0bc3fa-c977-4ece-a478-07606ddc000b|911fd57c-b4fa-482c-8ccb-a526fb7106a6",
-        "silk_edge_clearance|167867100|101447600|1da22776-667d-4d3a-a406-f31c0a13feaf|44643fd5-fad5-4612-b8fe-93e6cbaa01e4",
-        "silk_edge_clearance|167867100|101447600|1da22776-667d-4d3a-a406-f31c0a13feaf|8801114b-2eab-479d-827a-f111b76fd15c",
-        "silk_edge_clearance|167867100|87223600|1da22776-667d-4d3a-a406-f31c0a13feaf|8d946a29-f267-4f6f-b1e1-ade59baa8fbf",
-        "silk_edge_clearance|167867100|92303600|1da22776-667d-4d3a-a406-f31c0a13feaf|153c16fe-2206-47fc-a932-bf9f714c9e52",
-        "silk_edge_clearance|167867100|92303600|1da22776-667d-4d3a-a406-f31c0a13feaf|6a8d3440-2988-48ce-ab9e-bb6c75131192",
-        "silk_edge_clearance|167867100|96367600|1da22776-667d-4d3a-a406-f31c0a13feaf|b01ec8bf-545b-4197-bffe-30b31d2da802",
-        "silk_overlap|152438100|102606323|71ac4eb6-298f-422e-81bf-2f0ec1d59a49|6716d0f9-ed97-44c1-b416-e4f68fbb004d",
-        "silk_overlap|156504100|118753600|db88aad9-d741-4ccc-acf0-a9e495ca7126|c3e9d9ab-f91c-45d2-a0ef-5021b6f90e69",
         "silk_overlap|156883100|116306600|9242707d-2ed6-4244-b66f-d16407bd6538|44bce3b2-6439-478d-95bc-2e24addfc908",
         "text_height|132753100|120624600|51059a37-db6a-4eb3-930c-7a45c5a4c511|00000000-0000-0000-0000-000000000000",
         "text_height|135039100|120624600|a031260d-0a76-4161-b41a-33f1481ed6c2|00000000-0000-0000-0000-000000000000",
@@ -431,7 +420,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MSB.kicad_pro",
+    "filename": "SW9E-MSBv3.0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -466,7 +455,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../SW9E-MSB/MSB.dsn",
       "step": "",
       "vrml": ""
     },
