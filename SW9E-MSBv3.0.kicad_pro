@@ -34,9 +34,9 @@
         "other_text_thickness": 0.254,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.02,
+          "height": 1.37,
+          "width": 1.37
         },
         "silk_line_width": 0.254,
         "silk_text_italic": false,
@@ -55,22 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_issues|145955455|90745066|255d92ad-2af0-44d2-b93d-f66e7ce2af69|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|156883100|116306600|9242707d-2ed6-4244-b66f-d16407bd6538|44bce3b2-6439-478d-95bc-2e24addfc908",
-        "text_height|132753100|120624600|51059a37-db6a-4eb3-930c-7a45c5a4c511|00000000-0000-0000-0000-000000000000",
-        "text_height|135039100|120624600|a031260d-0a76-4161-b41a-33f1481ed6c2|00000000-0000-0000-0000-000000000000",
-        "text_height|137833100|120624600|cdc8b27f-56ff-43c6-a4a3-e3d415d07eb0|00000000-0000-0000-0000-000000000000",
-        "text_height|140246100|120624600|3895398a-1ac0-4cdd-90a3-1885a7e7a015|00000000-0000-0000-0000-000000000000",
-        "text_height|142913100|120624600|ed005c75-2c0c-4ae3-8a6f-6c843a5fd343|00000000-0000-0000-0000-000000000000",
-        "text_height|145453100|120624600|c46523c9-ed66-4f20-a24e-3aa2c6761fa3|00000000-0000-0000-0000-000000000000",
-        "text_thickness|132753100|120624600|51059a37-db6a-4eb3-930c-7a45c5a4c511|00000000-0000-0000-0000-000000000000",
-        "text_thickness|135039100|120624600|a031260d-0a76-4161-b41a-33f1481ed6c2|00000000-0000-0000-0000-000000000000",
-        "text_thickness|137833100|120624600|cdc8b27f-56ff-43c6-a4a3-e3d415d07eb0|00000000-0000-0000-0000-000000000000",
-        "text_thickness|140246100|120624600|3895398a-1ac0-4cdd-90a3-1885a7e7a015|00000000-0000-0000-0000-000000000000",
-        "text_thickness|142913100|120624600|ed005c75-2c0c-4ae3-8a6f-6c843a5fd343|00000000-0000-0000-0000-000000000000",
-        "text_thickness|145453100|120624600|c46523c9-ed66-4f20-a24e-3aa2c6761fa3|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -408,7 +393,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -437,7 +422,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.3048,
         "via_diameter": 0.508,
         "via_drill": 0.3,
         "wire_width": 6
