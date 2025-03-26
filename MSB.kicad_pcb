@@ -180,6 +180,1005 @@
 	(net 57 "unconnected-(U1-P3.2{slash}OA2--Pad45)")
 	(net 58 "unconnected-(U1-P3.1{slash}OA2O-Pad46)")
 	(net 59 "unconnected-(U1-P3.0{slash}MCLK-Pad47)")
+	(net 60 "unconnected-(P3-Pad6)")
+	(net 61 "unconnected-(P3-Pad3)")
+	(net 62 "unconnected-(P3-Pad5)")
+	(net 63 "unconnected-(R8-Pad1)")
+	(net 64 "unconnected-(U3-PA8-Pad29)")
+	(net 65 "unconnected-(U3-PH0-Pad5)")
+	(net 66 "unconnected-(U3-PB9-Pad46)")
+	(net 67 "unconnected-(U3-PB0-Pad18)")
+	(net 68 "unconnected-(U3-NRST-Pad7)")
+	(net 69 "unconnected-(U3-VSSA-Pad8)")
+	(net 70 "unconnected-(U3-PA0-Pad10)")
+	(net 71 "unconnected-(U3-PB7-Pad43)")
+	(net 72 "unconnected-(U3-PB10-Pad21)")
+	(net 73 "unconnected-(U3-BOOT0-Pad44)")
+	(net 74 "unconnected-(U3-PB8-Pad45)")
+	(net 75 "unconnected-(U3-PA12-Pad33)")
+	(net 76 "unconnected-(U3-PB15-Pad28)")
+	(net 77 "unconnected-(U3-VDDA-Pad9)")
+	(net 78 "unconnected-(U3-PB12-Pad25)")
+	(net 79 "unconnected-(U3-PA2-Pad12)")
+	(net 80 "unconnected-(U3-PC15-Pad4)")
+	(net 81 "unconnected-(U3-PC13-Pad2)")
+	(net 82 "unconnected-(U3-VDDIO2-Pad36)")
+	(net 83 "unconnected-(U3-PA11-Pad32)")
+	(net 84 "unconnected-(U3-PB1-Pad19)")
+	(net 85 "unconnected-(U3-VDD-Pad24)")
+	(net 86 "unconnected-(U3-PB3-Pad39)")
+	(net 87 "unconnected-(U3-PA10-Pad31)")
+	(net 88 "unconnected-(U3-PA1-Pad11)")
+	(net 89 "unconnected-(U3-PB6-Pad42)")
+	(net 90 "unconnected-(U3-PB2-Pad20)")
+	(net 91 "unconnected-(U3-PB5-Pad41)")
+	(net 92 "unconnected-(U3-PA3-Pad13)")
+	(net 93 "unconnected-(U3-PA4-Pad14)")
+	(net 94 "unconnected-(U3-PB4-Pad40)")
+	(net 95 "unconnected-(U3-PA14-Pad37)")
+	(net 96 "unconnected-(U3-PA13-Pad34)")
+	(net 97 "unconnected-(U3-PH1-Pad6)")
+	(net 98 "unconnected-(U3-PB11-Pad22)")
+	(net 99 "unconnected-(U3-VDD-Pad48)")
+	(net 100 "unconnected-(U3-PC14-Pad3)")
+	(net 101 "unconnected-(U3-VDD-Pad1)")
+	(footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(layer "F.Cu")
+		(uuid "06dd0e7f-00e9-4892-b9a1-aabbddac367f")
+		(at 145.7806 102.0736)
+		(descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+		(tags "LQFP QFP")
+		(property "Reference" "U3"
+			(at 0 -5.85 0)
+			(layer "F.SilkS")
+			(uuid "6eb560d8-bc34-42d2-9097-9e3477882c85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "STM32L051C6Tx"
+			(at 0 5.85 0)
+			(layer "F.Fab")
+			(uuid "4be95a08-2d3f-40f6-aeae-9fc2654faee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "010b8a91-1c0d-4e3f-ba5a-99229fdbd7d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l051c6.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc94789-6fc9-4c8c-b224-a4ed8f5a4cfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32 MHz, 1.65-3.6V, 37 GPIO, LQFP48"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e959f210-914d-403d-b921-8109f03823a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LQFP*7x7mm*P0.5mm*")
+		(path "/10b4806e-7a97-4468-94dc-8eeea69622a6")
+		(sheetname "Root")
+		(sheetfile "MSB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.61 -3.61)
+			(end -3.61 -3.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bc846b2b-ef8a-4a87-9dba-3255bd3646c3")
+		)
+		(fp_line
+			(start -3.61 3.61)
+			(end -3.61 3.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01b1a78b-893d-40a6-9bee-d623de98f6e8")
+		)
+		(fp_line
+			(start -3.16 -3.61)
+			(end -3.61 -3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "404245a2-1d72-4acb-89d3-a3c225b7effa")
+		)
+		(fp_line
+			(start -3.16 3.61)
+			(end -3.61 3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e36a771-f62c-441d-91ad-e7a3770f0b69")
+		)
+		(fp_line
+			(start 3.16 -3.61)
+			(end 3.61 -3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66e72004-202b-4aaf-a2b6-21ccaa12e9cf")
+		)
+		(fp_line
+			(start 3.16 3.61)
+			(end 3.61 3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "81107fa4-8980-41cd-b7f8-8b0af6778c8d")
+		)
+		(fp_line
+			(start 3.61 -3.61)
+			(end 3.61 -3.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e1b5e17e-4f9a-4539-844a-e1d06c91b1bf")
+		)
+		(fp_line
+			(start 3.61 3.61)
+			(end 3.61 3.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "74b49540-fc96-44ea-81dc-a1529014fe6c")
+		)
+		(fp_poly
+			(pts
+				(xy -4.2 -3.16) (xy -4.54 -3.63) (xy -3.86 -3.63) (xy -4.2 -3.16)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "626635b4-7067-46a8-b98d-f417d4531e3c")
+		)
+		(fp_line
+			(start -5.15 -3.15)
+			(end -5.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "55d64239-ba2d-4789-bb1a-0c8073b7752e")
+		)
+		(fp_line
+			(start -5.15 3.15)
+			(end -5.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "180b9150-4bc0-4748-82a4-644d2e095732")
+		)
+		(fp_line
+			(start -3.75 -3.75)
+			(end -3.75 -3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "739181f4-47e4-4a2e-944c-81baed6b93a6")
+		)
+		(fp_line
+			(start -3.75 -3.15)
+			(end -5.15 -3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f891cb0-c429-4e27-86f2-cb974d228a8a")
+		)
+		(fp_line
+			(start -3.75 3.15)
+			(end -5.15 3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c1d1933b-17e7-4a9a-b622-d94b9225de0d")
+		)
+		(fp_line
+			(start -3.75 3.75)
+			(end -3.75 3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32ff525f-b67b-4985-9f67-084d9c7a6d09")
+		)
+		(fp_line
+			(start -3.15 -5.15)
+			(end -3.15 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "57695675-de5e-4b98-a55d-cfa6fc8c8bc7")
+		)
+		(fp_line
+			(start -3.15 -3.75)
+			(end -3.75 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e63c806e-f03c-4f18-a96d-fd0177baaab3")
+		)
+		(fp_line
+			(start -3.15 3.75)
+			(end -3.75 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a1101c8-0013-43a1-8363-c1db7f82fab0")
+		)
+		(fp_line
+			(start -3.15 5.15)
+			(end -3.15 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "73e6c380-cb7f-4e9f-ae30-6ab9ae9ee220")
+		)
+		(fp_line
+			(start 0 -5.15)
+			(end -3.15 -5.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7491fdc2-3175-498d-be64-1292b635f652")
+		)
+		(fp_line
+			(start 0 -5.15)
+			(end 3.15 -5.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c2611631-3473-4507-b29b-c2699d862dec")
+		)
+		(fp_line
+			(start 0 5.15)
+			(end -3.15 5.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6172b487-30c6-4c09-8f3e-d4edbeedcf95")
+		)
+		(fp_line
+			(start 0 5.15)
+			(end 3.15 5.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4594d27f-7b60-4903-b8b2-5ce9c1730667")
+		)
+		(fp_line
+			(start 3.15 -5.15)
+			(end 3.15 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d3342684-c8b9-4dbe-9511-25ee07307abc")
+		)
+		(fp_line
+			(start 3.15 -3.75)
+			(end 3.75 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3ebbbf96-7228-4300-817c-1e7619535349")
+		)
+		(fp_line
+			(start 3.15 3.75)
+			(end 3.75 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "09bd5337-e698-4416-ac3c-363dccae7da3")
+		)
+		(fp_line
+			(start 3.15 5.15)
+			(end 3.15 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1e833e6c-f407-4010-9a50-6578fff8496f")
+		)
+		(fp_line
+			(start 3.75 -3.75)
+			(end 3.75 -3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5d094cf0-dd7d-4080-8782-3d382b927b32")
+		)
+		(fp_line
+			(start 3.75 -3.15)
+			(end 5.15 -3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "83003f9c-6d41-4120-932b-6902039a20ed")
+		)
+		(fp_line
+			(start 3.75 3.15)
+			(end 5.15 3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff34b46d-209b-4357-a4f1-0d1aa7d9a95a")
+		)
+		(fp_line
+			(start 3.75 3.75)
+			(end 3.75 3.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "077d651c-c940-4101-8076-e3c8db391297")
+		)
+		(fp_line
+			(start 5.15 -3.15)
+			(end 5.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "30b16f20-6bb8-47f2-9fec-cd17ee0b7d3b")
+		)
+		(fp_line
+			(start 5.15 3.15)
+			(end 5.15 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9af736a-bd95-4b0d-a584-6ac7691c38c4")
+		)
+		(fp_line
+			(start -3.5 -2.5)
+			(end -2.5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "549a73b7-3392-47ce-89b4-f4654f77279d")
+		)
+		(fp_line
+			(start -3.5 3.5)
+			(end -3.5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "226d442d-5cd0-48b1-92f8-79a07b02a468")
+		)
+		(fp_line
+			(start -2.5 -3.5)
+			(end 3.5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ea6b7ebd-a432-40b9-8acf-309e36e4703f")
+		)
+		(fp_line
+			(start 3.5 -3.5)
+			(end 3.5 3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6aa6f64c-cb81-4b2f-aefb-e077363633d8")
+		)
+		(fp_line
+			(start 3.5 3.5)
+			(end -3.5 3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "708fb4f9-efad-4ac4-9e12-e023d418a2c9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "69ed3236-3f03-4bf8-b2b8-27718d92a5ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -4.1625 -2.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 101 "unconnected-(U3-VDD-Pad1)")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "63d6a18d-6110-4fba-b32c-42ac659e3ac8")
+		)
+		(pad "2" smd roundrect
+			(at -4.1625 -2.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 81 "unconnected-(U3-PC13-Pad2)")
+			(pinfunction "PC13")
+			(pintype "bidirectional")
+			(uuid "7d93902d-1def-410c-9876-57a37f3ead19")
+		)
+		(pad "3" smd roundrect
+			(at -4.1625 -1.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 100 "unconnected-(U3-PC14-Pad3)")
+			(pinfunction "PC14")
+			(pintype "bidirectional")
+			(uuid "e148d923-3afe-4ced-b085-b8ba8ef290c2")
+		)
+		(pad "4" smd roundrect
+			(at -4.1625 -1.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 80 "unconnected-(U3-PC15-Pad4)")
+			(pinfunction "PC15")
+			(pintype "bidirectional")
+			(uuid "78e6bbab-95dd-458c-bb2b-07dc4573b0c2")
+		)
+		(pad "5" smd roundrect
+			(at -4.1625 -0.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 65 "unconnected-(U3-PH0-Pad5)")
+			(pinfunction "PH0")
+			(pintype "bidirectional")
+			(uuid "1b497c9b-7d3f-4cb4-9c3f-d6361f98b91e")
+		)
+		(pad "6" smd roundrect
+			(at -4.1625 -0.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 97 "unconnected-(U3-PH1-Pad6)")
+			(pinfunction "PH1")
+			(pintype "bidirectional")
+			(uuid "cd3701f9-cc82-4246-8cc9-b842ea402242")
+		)
+		(pad "7" smd roundrect
+			(at -4.1625 0.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 68 "unconnected-(U3-NRST-Pad7)")
+			(pinfunction "NRST")
+			(pintype "input")
+			(uuid "2b19b405-76fe-4b36-9684-2a64c124a31e")
+		)
+		(pad "8" smd roundrect
+			(at -4.1625 0.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 69 "unconnected-(U3-VSSA-Pad8)")
+			(pinfunction "VSSA")
+			(pintype "power_in")
+			(uuid "34f4ca5d-4d81-4501-b1c0-231862646d1f")
+		)
+		(pad "9" smd roundrect
+			(at -4.1625 1.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 77 "unconnected-(U3-VDDA-Pad9)")
+			(pinfunction "VDDA")
+			(pintype "power_in")
+			(uuid "6789ce3a-b3aa-4b65-8913-427a2afd2c62")
+		)
+		(pad "10" smd roundrect
+			(at -4.1625 1.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 70 "unconnected-(U3-PA0-Pad10)")
+			(pinfunction "PA0")
+			(pintype "bidirectional")
+			(uuid "358a8155-d8d4-40b9-a2a0-aec4afffff3f")
+		)
+		(pad "11" smd roundrect
+			(at -4.1625 2.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 88 "unconnected-(U3-PA1-Pad11)")
+			(pinfunction "PA1")
+			(pintype "bidirectional")
+			(uuid "9abce3d9-213d-493b-aef3-3b949e4972dc")
+		)
+		(pad "12" smd roundrect
+			(at -4.1625 2.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 79 "unconnected-(U3-PA2-Pad12)")
+			(pinfunction "PA2")
+			(pintype "bidirectional")
+			(uuid "6f4b79de-2832-461a-9b96-56a9a3f77db6")
+		)
+		(pad "13" smd roundrect
+			(at -2.75 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 92 "unconnected-(U3-PA3-Pad13)")
+			(pinfunction "PA3")
+			(pintype "bidirectional")
+			(uuid "b1e73969-dca7-489f-8005-888c7b494c17")
+		)
+		(pad "14" smd roundrect
+			(at -2.25 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 93 "unconnected-(U3-PA4-Pad14)")
+			(pinfunction "PA4")
+			(pintype "bidirectional")
+			(uuid "be45b9a5-2e47-46ee-8f51-b092dca73d41")
+		)
+		(pad "15" smd roundrect
+			(at -1.75 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "+5")
+			(pinfunction "PA5")
+			(pintype "bidirectional")
+			(uuid "59166bb6-cd0a-4c7f-9da8-975401c6af3a")
+		)
+		(pad "16" smd roundrect
+			(at -1.25 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 23 "/DROP2_CTRL")
+			(pinfunction "PA6")
+			(pintype "bidirectional")
+			(uuid "b62fa0bc-3f8a-4c09-b9bc-9540b6de57d2")
+		)
+		(pad "17" smd roundrect
+			(at -0.75 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 22 "/DROP1_CTRL")
+			(pinfunction "PA7")
+			(pintype "bidirectional")
+			(uuid "119587de-05c5-4ff8-b975-35f451e38c7d")
+		)
+		(pad "18" smd roundrect
+			(at -0.25 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 67 "unconnected-(U3-PB0-Pad18)")
+			(pinfunction "PB0")
+			(pintype "bidirectional")
+			(uuid "24d5132b-3a62-472e-97a9-3c78ac4baa0e")
+		)
+		(pad "19" smd roundrect
+			(at 0.25 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 84 "unconnected-(U3-PB1-Pad19)")
+			(pinfunction "PB1")
+			(pintype "bidirectional")
+			(uuid "8364acc0-5351-450a-912a-9554c08d53d2")
+		)
+		(pad "20" smd roundrect
+			(at 0.75 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 90 "unconnected-(U3-PB2-Pad20)")
+			(pinfunction "PB2")
+			(pintype "bidirectional")
+			(uuid "9febb474-26d5-481e-a40b-c78bf32c1733")
+		)
+		(pad "21" smd roundrect
+			(at 1.25 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 72 "unconnected-(U3-PB10-Pad21)")
+			(pinfunction "PB10")
+			(pintype "bidirectional")
+			(uuid "46c638ca-3354-492b-b82f-53c0908cc692")
+		)
+		(pad "22" smd roundrect
+			(at 1.75 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 98 "unconnected-(U3-PB11-Pad22)")
+			(pinfunction "PB11")
+			(pintype "bidirectional")
+			(uuid "d669bae2-6351-4617-b365-1de9bb26eb25")
+		)
+		(pad "23" smd roundrect
+			(at 2.25 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 2 "GND")
+			(pinfunction "VSS")
+			(pintype "power_in")
+			(uuid "8716bab3-1639-4c8c-87ea-f77f70530828")
+		)
+		(pad "24" smd roundrect
+			(at 2.75 4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 85 "unconnected-(U3-VDD-Pad24)")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "86080322-d3a2-4183-bc70-2d9888712055")
+		)
+		(pad "25" smd roundrect
+			(at 4.1625 2.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 78 "unconnected-(U3-PB12-Pad25)")
+			(pinfunction "PB12")
+			(pintype "bidirectional")
+			(uuid "6bfe7ff9-009e-4e24-b981-ac2b1e991f50")
+		)
+		(pad "26" smd roundrect
+			(at 4.1625 2.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 12 "/SCL")
+			(pinfunction "PB13")
+			(pintype "bidirectional")
+			(uuid "b5455af8-311c-4e69-8d61-a6bbcad0f9ff")
+		)
+		(pad "27" smd roundrect
+			(at 4.1625 1.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 13 "/SDA")
+			(pinfunction "PB14")
+			(pintype "bidirectional")
+			(uuid "749bf8b3-6a73-46d8-8483-50cb6fc2f225")
+		)
+		(pad "28" smd roundrect
+			(at 4.1625 1.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 76 "unconnected-(U3-PB15-Pad28)")
+			(pinfunction "PB15")
+			(pintype "bidirectional")
+			(uuid "669c1a51-116f-4eac-9e52-ce920d111d6f")
+		)
+		(pad "29" smd roundrect
+			(at 4.1625 0.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 64 "unconnected-(U3-PA8-Pad29)")
+			(pinfunction "PA8")
+			(pintype "bidirectional")
+			(uuid "04de4267-dee2-47b2-a416-b0b9f9fa6323")
+		)
+		(pad "30" smd roundrect
+			(at 4.1625 0.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "+5")
+			(pinfunction "PA9")
+			(pintype "bidirectional")
+			(uuid "57a36291-84a2-4006-80b2-41287b9dd8fd")
+		)
+		(pad "31" smd roundrect
+			(at 4.1625 -0.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 87 "unconnected-(U3-PA10-Pad31)")
+			(pinfunction "PA10")
+			(pintype "bidirectional")
+			(uuid "8ed43ba3-44a6-4a64-9081-22cd39d28ecd")
+		)
+		(pad "32" smd roundrect
+			(at 4.1625 -0.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 83 "unconnected-(U3-PA11-Pad32)")
+			(pinfunction "PA11")
+			(pintype "bidirectional")
+			(uuid "815f5e47-160f-4afb-b4f3-a46418e8d7ee")
+		)
+		(pad "33" smd roundrect
+			(at 4.1625 -1.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 75 "unconnected-(U3-PA12-Pad33)")
+			(pinfunction "PA12")
+			(pintype "bidirectional")
+			(uuid "5efffa2c-9195-4944-be87-cb46642149b4")
+		)
+		(pad "34" smd roundrect
+			(at 4.1625 -1.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 96 "unconnected-(U3-PA13-Pad34)")
+			(pinfunction "PA13")
+			(pintype "bidirectional")
+			(uuid "cbc7f227-bcb1-4fae-abcd-f7f9c254d9ce")
+		)
+		(pad "35" smd roundrect
+			(at 4.1625 -2.25)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 2 "GND")
+			(pinfunction "VSS")
+			(pintype "passive")
+			(uuid "df9e3222-03a5-4f60-a789-d42ac2637065")
+		)
+		(pad "36" smd roundrect
+			(at 4.1625 -2.75)
+			(size 1.475 0.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 82 "unconnected-(U3-VDDIO2-Pad36)")
+			(pinfunction "VDDIO2")
+			(pintype "power_in")
+			(uuid "7f86dd27-179a-4458-9872-7c2cba4af95b")
+		)
+		(pad "37" smd roundrect
+			(at 2.75 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 95 "unconnected-(U3-PA14-Pad37)")
+			(pinfunction "PA14")
+			(pintype "bidirectional")
+			(uuid "ca6e4e74-a40c-4863-8f38-972a4a9236ba")
+		)
+		(pad "38" smd roundrect
+			(at 2.25 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 11 "/SERVO2_CTRL")
+			(pinfunction "PA15")
+			(pintype "bidirectional")
+			(uuid "4a99f52c-ecef-49d1-9918-03a21811c862")
+		)
+		(pad "39" smd roundrect
+			(at 1.75 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 86 "unconnected-(U3-PB3-Pad39)")
+			(pinfunction "PB3")
+			(pintype "bidirectional")
+			(uuid "8d19e4da-6112-47ae-a1d3-d0640bacf094")
+		)
+		(pad "40" smd roundrect
+			(at 1.25 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 94 "unconnected-(U3-PB4-Pad40)")
+			(pinfunction "PB4")
+			(pintype "bidirectional")
+			(uuid "be51a419-e5c0-44cc-aed6-dce682c50eaf")
+		)
+		(pad "41" smd roundrect
+			(at 0.75 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 91 "unconnected-(U3-PB5-Pad41)")
+			(pinfunction "PB5")
+			(pintype "bidirectional")
+			(uuid "a4968f1f-90b4-4542-9a83-e6f80a2836e9")
+		)
+		(pad "42" smd roundrect
+			(at 0.25 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 89 "unconnected-(U3-PB6-Pad42)")
+			(pinfunction "PB6")
+			(pintype "bidirectional")
+			(uuid "9b422888-b412-4158-bdef-769c243be3a0")
+		)
+		(pad "43" smd roundrect
+			(at -0.25 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 71 "unconnected-(U3-PB7-Pad43)")
+			(pinfunction "PB7")
+			(pintype "bidirectional")
+			(uuid "42a2d686-3a24-441d-a331-010e29a7a125")
+		)
+		(pad "44" smd roundrect
+			(at -0.75 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 73 "unconnected-(U3-BOOT0-Pad44)")
+			(pinfunction "BOOT0")
+			(pintype "input")
+			(uuid "5065687a-037a-4ba3-a0b4-513e04c64640")
+		)
+		(pad "45" smd roundrect
+			(at -1.25 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 74 "unconnected-(U3-PB8-Pad45)")
+			(pinfunction "PB8")
+			(pintype "bidirectional")
+			(uuid "53a627a8-8f7c-4f13-9d4b-da959fdcf7a4")
+		)
+		(pad "46" smd roundrect
+			(at -1.75 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 66 "unconnected-(U3-PB9-Pad46)")
+			(pinfunction "PB9")
+			(pintype "bidirectional")
+			(uuid "1bd500d8-a8a2-4bb3-b51d-f844380e4b22")
+		)
+		(pad "47" smd roundrect
+			(at -2.25 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 2 "GND")
+			(pinfunction "VSS")
+			(pintype "passive")
+			(uuid "ea255594-f031-4f8d-87e1-b53f0f99eff1")
+		)
+		(pad "48" smd roundrect
+			(at -2.75 -4.1625)
+			(size 0.3 1.475)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 99 "unconnected-(U3-VDD-Pad48)")
+			(pinfunction "VDD")
+			(pintype "power_in")
+			(uuid "d97e0269-e762-4495-b882-ff51ce2d1609")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-48_7x7mm_P0.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "AltiumImport:FP-22-05-3021-MFG"
 		(layer "F.Cu")
 		(uuid "0a0ef751-1115-4e0e-a770-aff5194b571f")
@@ -235,7 +1234,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -247,91 +1246,22 @@
 				)
 			)
 		)
-		(property "COLOR" "White"
-			(at 255.7907 -76.2635 0)
+		(property "Part Number" "22-05-3021"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "405a981a-6609-4609-b23d-107a6c79a15a")
+			(uuid "ec2ee22e-f9bc-46c7-b7a7-e62c6a7a4b84")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 255.7907 -76.2635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "721d4d60-3ff1-4445-9ecb-f4d8daf8a2ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "22-05-3021"
-			(at 255.7907 -76.2635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44e48550-f5e9-4693-9cab-5593efde3983")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Through Hole"
-			(at 255.7907 -76.2635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99369f8d-b136-4dc2-82f6-34442a107635")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ORIENTATION" "Right Angle"
-			(at 255.7907 -76.2635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f52f5a7-8403-41e9-96a2-7b74cd9279b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Bulk"
-			(at 255.7907 -76.2635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38cc5cd2-7940-43f3-9027-0cbbcf1ec184")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 255.7907 -76.2635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0fd9b82-6212-4456-b4b3-feda71d6c721")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-22-05-3021-MFG")
 		(path "/1fe50f2f-06e8-4160-a85a-dddc1834c2dc")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 2.54 -1.59)
@@ -616,7 +1546,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 309 OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -640,127 +1570,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF3090V+7+WW"
-			(at 278.6507 -34.6075 0)
+		(property "Part Number" "ERJ-6ENF3090V"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "401eac38-fd50-4b01-9aca-4abb29dd3276")
+			(uuid "86056805-5351-48cd-93ae-e99c79dd8ef1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "694bbcd5-d968-4109-91e4-49fc2a13e320")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF3090V"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdc23bba-69ee-4bbb-a475-d93c982e993f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0162c14-c6e8-44af-970a-64b4c6f96e79")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22c1b16a-0935-46ad-8118-d1d8abe68f36")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce64dbf4-be2b-4dcf-81c1-0e96c15672d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.125W, 1/8W"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9aa0cb1f-11c3-4a13-8192-f09b7373d805")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "54759"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd2e7eee-4c14-47a8-b27e-ab268172f590")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a55c2e5c-0efb-43a3-b622-a20a69c910af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.00729"
-			(at 278.6507 -34.6075 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec7221ff-ac2f-4d52-9318-58a698833089")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/9d09684e-67fc-4ca7-9246-7dfae2ca0a79")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.889 0.254)
@@ -869,7 +1694,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 0.0 OHM JUMPER 1/8W 0805"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -893,127 +1718,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ6GEY0R00V+7+WW"
-			(at 32.8295 248.9327 0)
+		(property "Part Number" "ERJ-6GEY0R00V"
+			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deaa3eae-8fad-4d45-a1c1-ab4a038db736")
+			(uuid "9dd07afa-e96e-4858-8cb4-7f111b02b02e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e60ba7af-7d92-449c-b48e-9e47411be5e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-6GEY0R00V"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4a3dd21-10ec-417c-8697-d49250225e68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "131898e1-1b0d-4880-8f0f-726da068d058")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8bc144a2-f16b-4046-aa8c-c44d3b1a9c41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8219f6c-163f-4d26-91a4-7d31540b7217")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.125W, 1/8W"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac945ac5-dd3c-41b2-b72c-3a5d1c60bccc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "1597627"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d03b3396-c9fb-46db-9be7-8a6902a9cc6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "Jumper"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "207cd32f-929c-45ca-81c6-c4f1e27c8b87")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.00544"
-			(at 32.8295 248.9327 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2ab520f-b00f-47dc-94bf-8bc75c52ff66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/1618a633-0862-486e-abd9-1cb811c5b8a1")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -0.889 0.254)
@@ -1170,7 +1890,6 @@
 				)
 			)
 		)
-		(path "/514d11ae-1743-42dc-bd50-9d2b99ab2e35")
 		(sheetfile "MSB.kicad_sch")
 		(fp_rect
 			(start -4.925 -2.625)
@@ -2526,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 200 OHM 0.5% 1/4W 0805"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2550,127 +3269,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C100.pdf"
+		(property "Part Number" "ERJ-PB6D2000V"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df7f6ecd-33cc-40ab-8cd7-f2ed6025a858")
+			(uuid "17e90b94-3f0c-4eaa-b7de-19f5fd4db5d6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ae96e2b-8b49-47fe-ad34-4934c232d018")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-PB6D2000V"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae112c09-d153-4926-89d3-7578b5dbe3f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6aad71dd-e243-4cc1-9b40-cec37f5195b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdd4ba05-36fb-4e50-a73a-de08a2544df5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28376c62-4900-4627-98af-d71c3cf7eba2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.25W, 1/4W"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2792a6e4-65da-4f28-b922-232355885691")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "10000"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bf214ea-03d7-42ae-a7f9-01c1442d77c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±0.5%"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16ffeba1-b67e-4934-8e8b-d90883a214bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.04968"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9cbf9c6f-2819-47f6-97d9-e46c0353c142")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/f48cbcdc-1d13-431b-9ad4-42e0a5fc76fd")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -0.889 0.254)
@@ -3864,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3888,127 +4502,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW"
-			(at 306.6542 219.1512 0)
+		(property "Part Number" "ERJ-6ENF1002V"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d41a2767-e75e-452f-97dc-f84b8610bd63")
+			(uuid "dac50ff1-74a5-476b-a74c-48459b9bc582")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09572e11-df9e-4fa5-b51d-403b249dc248")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF1002V"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0057fa9-59ea-4a4a-9659-afa2580b234b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe99a019-37e0-4012-bf63-52d810af8e44")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4a58780-077e-4434-b450-2df530fac857")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4615a480-bb28-4b2f-b10f-78e20d449537")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.125W, 1/8W"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8cc00819-1385-405f-afe5-25837b72e507")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "3985614"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bf1b36d-4cac-42ed-aecd-7d7b28d8333b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce51a4f8-ddf4-4cbc-b5b6-d5b79d278484")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.00729"
-			(at 306.6542 219.1512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e20512bb-c905-4d6e-84ed-2a3d2db1a6ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/b1afc28e-95ea-4c5f-99d2-e569e271e3e1")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.889 0.254)
@@ -4117,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 200 OHM 0.5% 1/4W 0805"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4141,127 +4650,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C100.pdf"
+		(property "Part Number" "ERJ-PB6D2000V"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67267299-22d8-47bd-aa9e-a9edfb318b6a")
+			(uuid "ed8528b6-3b7b-4a4d-8554-1fa118962c53")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "54a3eb91-8995-4180-be9a-1663579d2a7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-PB6D2000V"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64d67a91-9d7f-4b0b-819f-783bf8cb9c47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ab0749e-550e-4036-9722-7b0859a33382")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fd63f15d-15b9-41b1-9e68-eb96434341d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2d444f4-73dc-41ca-aadc-37a07a80efd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.25W, 1/4W"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d606d1b5-7880-4209-a693-20369d8f7292")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "10000"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29e31fbb-0b5b-412f-99b3-7595a001a39e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±0.5%"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c28028a3-9de9-411a-8acd-638ff69c320e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.04968"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a532291-a34b-46b3-893c-ae48b8f75477")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/1d58588b-97ee-4670-a0cb-3c5a529f56df")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -0.889 0.254)
@@ -4370,7 +4774,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4382,91 +4786,22 @@
 				)
 			)
 		)
-		(property "COLOR" "White"
-			(at 15.4305 246.2657 0)
+		(property "Part Number" "22-05-3021"
+			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "332a3a23-994b-4e79-9e5c-5fb544e4c788")
+			(uuid "244e62af-ff70-4a06-954a-1d5860e2d36e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 15.4305 246.2657 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86e58fa3-2c42-4589-ba53-6c8e378bbdbd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "22-05-3021"
-			(at 15.4305 246.2657 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b420fce3-c84b-4711-823e-664060ac2bd5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Through Hole"
-			(at 15.4305 246.2657 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26dda47e-136b-4f00-8091-809c0060a540")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ORIENTATION" "Right Angle"
-			(at 15.4305 246.2657 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0313b86-5620-4248-b9e1-e99df5ae5fcc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Bulk"
-			(at 15.4305 246.2657 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a9d31033-5930-4020-8513-304f1ca3509a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 15.4305 246.2657 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "df194f14-673c-4b36-befc-09d664494e88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-22-05-3021-MFG")
 		(path "/5c6f54a1-c26c-498d-9bd7-a77bfcdfef17")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -2.54 1.84)
@@ -4751,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 76.8 OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4775,127 +5110,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF76R8V+7+WW"
-			(at 272.0467 -41.2115 0)
+		(property "Part Number" "ERJ-6ENF76R8V"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4b42825-114b-42c8-bc70-b5378f274366")
+			(uuid "0b8466c8-660d-41b4-a5da-b9748bdbc52c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22d17b47-7d73-4649-b2fb-4e3d1b8e555b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF76R8V"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "822d239f-6669-4351-b27d-285b51afa7bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5cff2446-6c9a-4149-bcf2-b23797f904a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "def30f19-f395-4895-bf31-6bb199c0bfb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "506e635b-b73d-4383-a45f-cc8d03da952c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.125W, 1/8W"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed3f2338-eb5d-4b4a-9cbf-8a2658698881")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "23882"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6c9caf7-b6fa-4c07-9697-2b2934d57aab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c849795-4347-4e01-adb9-8d0fec29e06d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.00729"
-			(at 272.0467 -41.2115 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ae6513b8-ea67-48e4-92c6-d35970bfeba2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/41bbb3bc-8615-4c42-bfd3-52fedb90dca4")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.889 0.254)
@@ -4921,7 +5151,7 @@
 			(at 0 -1.016)
 			(size 1.016 1.524)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 24 "Net-(U1-P6.2{slash}TB3.3)")
+			(net 63 "unconnected-(R8-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
@@ -5004,7 +5234,7 @@
 				)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR CHIP SMD, LTST-C171GKT"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5028,91 +5258,22 @@
 				)
 			)
 		)
-		(property "COLOR" "Red"
+		(property "Part Number" "150080SS75000"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4012eb2c-1123-422e-92fb-84d53fa51f10")
+			(uuid "0ece6d29-08a1-4ee1-9431-ffcb39818418")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "FORWARD VOLTAGE" "1.9V"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dddc9776-89aa-4a6b-bd8b-ebe55e62c581")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LUMINOUS INTENSITY" "60mcd"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0f82275-e803-4329-8c1c-3c6b62790f96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Wurth Elektronik"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80b7c212-9f9d-491f-abdd-b3be17f8bb57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "150080SS75000"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "612ff9db-2bae-44ec-a563-d3470a5188ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9eed2609-24dd-4c28-8728-c8cab02cdbfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7dab21d9-7f54-4ec1-87d1-5cd482b7b478")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-LTST-C171GKT-MFG")
 		(path "/1bbbf19c-b81e-407d-a793-cc25f8ec4642")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.125 -0.675)
@@ -5385,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Description" "Fixed Low Drop Positive Voltage Regulator, 3.3V, 4-Pin SOT-223, Tape and Reel"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5397,43 +5558,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000544.pdf"
+		(property "Part Number" "LD1117S33TR"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "080d1ce0-cf5d-4634-8c91-e338a5489468")
+			(uuid "d05d002b-2625-4c03-ba89-3e93478c2027")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "014e8daa-d884-41e2-9e64-deeb01630d35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "LD1117S33TR"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a82c8e62-c469-4704-bc2f-eb805df59232")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SOT-223_L")
 		(path "/07967948-beae-4f0c-9683-0eb5fdabc224")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -1.5 -3.35)
@@ -5682,7 +5822,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 10K OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5706,127 +5846,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1002V+7+WW"
-			(at 306.6542 204.9272 0)
+		(property "Part Number" "ERJ-6ENF1002V"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90c8b1a7-8805-4ff2-a023-7c4cb69b768d")
+			(uuid "713fa68e-bb90-4411-b5f4-510d9aa42bf0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68e93b48-8973-4217-8f5a-ca323fceaff0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF1002V"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9fdb2ed5-3a06-4c6f-ae48-4fb5c24615d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fe37123-1539-4db8-8a57-2355a23b1bb1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5fd900c-a858-495e-9b95-bf39caacee2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f55c7528-989a-40a2-b515-a6880005bb5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.125W, 1/8W"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "068c7b9b-5dc8-43fc-b861-de94bcd62429")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "3985614"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b881215-3cd8-4029-ba46-1b77d50f6b1a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44d04997-908e-4cf3-afc5-1165c1c212f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.00729"
-			(at 306.6542 204.9272 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c3b97a35-2ff4-48e2-9225-b2799ccb5cad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/8aef904c-554e-4246-b2a0-14728f5d83be")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.889 0.254)
@@ -5935,7 +5970,7 @@
 				)
 			)
 		)
-		(property "Description" "THT Vertical Pin Header WR-PHD, Pitch 2.54 mm, Single Row, 8 pins"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5947,103 +5982,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"
-			(at 281.7622 244.5512 0)
+		(property "Part Number" "61300811121"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74ee5519-1e0e-4b83-a8fa-a126bf40065e")
+			(uuid "66274087-c208-4f99-99c8-674b1ee54b00")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Wurth Elektronik"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59d22287-e8ff-4ac7-bee7-aecaf8ec9fb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "61300811121"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbbb1fb5-7593-4400-b532-4c893f1d1246")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Through Hole"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e3a6490-cc99-44f3-bbf8-d946d7e27d3c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-40to105degC"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72483215-b2ee-43dc-81b2-af29ab1c9e81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ORIENTATION" "Vertical"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a358185d-f830-423b-b141-0227663f5bfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Bag"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdf54337-11e9-46fd-ae9f-a2d4fe227413")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 281.7622 244.5512 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89128cb0-8a21-4154-b04d-c3a4b7e20255")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "61300811121")
 		(path "/28f67a6c-d365-4ee0-b5ac-0de7bb0f4410")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 10.31 1.345)
@@ -6228,7 +6182,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 16 "/RXD")
+			(net 61 "unconnected-(P3-Pad3)")
 			(pinfunction "3")
 			(pintype "passive")
 			(uuid "a8482a55-bc64-448c-af41-fd05e667fa8f")
@@ -6239,7 +6193,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "/TXD")
+			(net 3 "+5")
 			(pinfunction "4")
 			(pintype "passive")
 			(uuid "5f24d325-51c0-4b28-b6eb-0418d1cbee03")
@@ -6250,7 +6204,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "/RST")
+			(net 62 "unconnected-(P3-Pad5)")
 			(pinfunction "5")
 			(pintype "passive")
 			(uuid "ceac745f-f5a3-46e3-89a3-60f3172a7a36")
@@ -6261,7 +6215,7 @@
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "/TST")
+			(net 60 "unconnected-(P3-Pad6)")
 			(pinfunction "6")
 			(pintype "passive")
 			(uuid "90bfe06f-291c-437c-b911-47c7ebb001ee")
@@ -6355,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Description" "Male Header, Pitch 2.54 mm, 1 x 4 Position, Height 11.7 mm, Tail Length 3.56 mm, RoHS, Bulk"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6367,55 +6321,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://www.molex.com/pdm_docs/sd/022272041_sd.pdf"
-			(at 227.2157 -43.1165 0)
+		(property "Part Number" "22-27-2041"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac41eb25-7006-43d9-82c1-692e43fe27b3")
+			(uuid "b51fc7f7-7f65-4d80-b59b-1e9303cb11fd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 227.2157 -43.1165 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a76078ce-e2b8-4fcd-9bfc-f79b8253d1a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "22-27-2041"
-			(at 227.2157 -43.1165 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "617eb6cd-0448-4fd7-94fe-8eac795f6004")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "0degCto+75degC"
-			(at 227.2157 -43.1165 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2267f41-1c1c-443c-ad0d-54a0bf153035")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "MOLX-22-27-2041_V")
 		(path "/20f95fea-6c41-4d75-9d59-2758614352ce")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 5.08 -2.9)
@@ -6680,7 +6601,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6692,91 +6613,22 @@
 				)
 			)
 		)
-		(property "COLOR" "White"
-			(at 264.9347 -67.1195 0)
+		(property "Part Number" "22-05-3021"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1973c6b-2e0c-4a1f-ab5b-6bcfd05ec75a")
+			(uuid "f6f97891-a693-4727-ac3f-f8876c790b37")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 264.9347 -67.1195 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a474c1e-0215-4532-bc97-03613c158111")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "22-05-3021"
-			(at 264.9347 -67.1195 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b8a5676-8e94-4f24-945f-965f2761b6c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Through Hole"
-			(at 264.9347 -67.1195 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b24f9e0c-e6b4-4e3a-bea4-ba5d7e77f6d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "ORIENTATION" "Right Angle"
-			(at 264.9347 -67.1195 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9131a9fe-10d3-46fd-8d97-4a5716e2b563")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Bulk"
-			(at 264.9347 -67.1195 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca60c004-e9fc-49c7-8c7e-8342c5929a27")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 264.9347 -67.1195 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eedc50ea-0805-4f16-9661-41f61efafa77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-22-05-3021-MFG")
 		(path "/ebbf1af2-639a-4ca0-8b08-f9492160debb")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 2.54 -1.59)
@@ -7061,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Description" "Male Header, Pitch 2.54 mm, 1 x 4 Position, Height 11.7 mm, Tail Length 3.56 mm, RoHS, Bulk"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7073,55 +6925,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://www.molex.com/pdm_docs/sd/022272041_sd.pdf"
-			(at 240.2967 -30.2895 0)
+		(property "Part Number" "22-27-2041"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55fec977-315c-4dda-b26b-6b703d1b7950")
+			(uuid "fc8421a6-e527-4e76-9d0e-561db3cfe5b1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 240.2967 -30.2895 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6a1f3297-a5e0-46f3-9dc4-0f14262f1369")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "22-27-2041"
-			(at 240.2967 -30.2895 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f815bf8-f805-4b6a-995c-a418ba35b088")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "0degCto+75degC"
-			(at 240.2967 -30.2895 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6225312e-0346-41d5-8df1-bbf6c70f6edb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "MOLX-22-27-2041_V")
 		(path "/ce292596-6ba3-43ca-bad4-11523fcf34a5")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 5.08 -2.9)
@@ -7386,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7398,67 +7217,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://www.molex.com/webdocs/datasheets/pdf/en-us/0901200763_PCB_HEADERS.pdf"
-			(at 281.4447 -41.9735 0)
+		(property "Part Number" "90120-0763"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4edc5f36-594d-4e40-8700-60d39deca50f")
+			(uuid "da71ce48-3bce-4596-8fa6-2e7baa4d3dfc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 281.4447 -41.9735 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e4ad6869-f62d-4190-b61a-4af2e3ff8377")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "90120-0763"
-			(at 281.4447 -41.9735 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7942a35-bc9c-4b09-88fd-3190bbaa79e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Board-To-Board Connector, C-Grid III 90120 Series, Through Hole, Header, 3, 2.54 mm"
-			(at 281.4447 -41.9735 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a65f94a6-43a3-45d0-9120-5ab38f1bccd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 281.4447 -41.9735 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b60de13b-6fc8-4910-be5b-056b80c81008")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-90120-0763-MFG")
 		(path "/354f1ff5-210e-4a3f-b8ce-953f5306c40b")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 3.81 -1.27)
@@ -7755,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 10V X7R 0805"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7779,127 +7553,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx"
-			(at 35.6235 254.7747 0)
+		(property "Part Number" "GCJ21BR71A106KE01L"
+			(at 0 0 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4484be1-1a6e-4e71-85a8-092781bbdd76")
+			(uuid "b80eb4ce-26f1-4f28-bd0a-6293540ab9e1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics North America"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28759c22-45ff-4c17-93b0-66699e58673c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GCJ21BR71A106KE01L"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fe9ced9-f0ce-4421-94b6-e8255cabd61a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Surface Mount, MLCC"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92a8f09f-9b49-48b7-bb30-0a417a60e593")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 125°C"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "291de6e9-7fa1-4f75-a25d-2f19245cee04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a23e6bf8-b5ee-49ed-8311-64ea9a589e23")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0bb12e0a-3a8f-488c-922b-3ca8b7c7b6bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "2702"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0ab192d-fc8d-4624-bd57-eef87b134aa7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±10%"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6516fda8-ee93-4d66-9cd6-33956dc683b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.56"
-			(at 35.6235 254.7747 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f925ca9-b6ce-4597-85ff-25f52884650f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805C")
 		(path "/8af961a6-050e-4302-b178-1fbcbd051e34")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.62496 -0.00024)
@@ -7998,7 +7667,7 @@
 				)
 			)
 		)
-		(property "Description" "LED GREEN CLEAR CHIP SMD, LTST-C171GKT"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8022,91 +7691,22 @@
 				)
 			)
 		)
-		(property "COLOR" "Green"
-			(at 313.2582 235.4072 0)
+		(property "Part Number" "LTST-C171GKT"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9489058c-b76a-43df-8d7a-4926e1969754")
+			(uuid "9f430c41-84c8-466d-a616-22d9c08147f7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "FORWARD VOLTAGE" "2.1V"
-			(at 313.2582 235.4072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4718822a-5ae7-4dbe-af3c-410f19268223")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LUMINOUS INTENSITY" "12mcd"
-			(at 313.2582 235.4072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5514b23d-b8b9-4811-94be-047273c93324")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Vishay"
-			(at 313.2582 235.4072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a82e455-5434-462b-a786-5a6f2e389fa1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "LTST-C171GKT"
-			(at 313.2582 235.4072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4bd55b56-aba0-46b1-b8df-53032c923c7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 313.2582 235.4072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7287df95-6982-43c4-b0a0-21f93868e741")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 313.2582 235.4072 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f7a1b4c-fa9c-41ed-a54d-d6dea7251b25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-LTST-C171GKT-MFG")
 		(path "/12f5277d-7d50-4c58-92df-f118267b475a")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 1.05 1.05)
@@ -8379,7 +7979,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET Trans MOS N-Ch 60V 1.7A"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8391,43 +7991,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://www.onsemi.com/pub/Collateral/FDN5632N_F085-D.PDF"
+		(property "Part Number" "FDN5632N-F085"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10afb9b4-d5de-41bd-97c6-8cac91c52c36")
+			(uuid "3eb3e239-e62a-47ed-ab5d-4c7a51a74da3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53e2e662-11c6-4384-bc8f-c05b51de1b6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "FDN5632N-F085"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7bba324d-565d-4419-b754-21cf1d5d8823")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SOT95P237X122-3N")
 		(path "/33963dec-816b-4639-9238-9848e1e0be71")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -1.7 -1.5)
@@ -8655,7 +8234,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V NP0 0805"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8679,127 +8258,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 279.2222 231.3432 0)
+		(property "Part Number" "GQM2195C1H101JB01D"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a274f1c-c204-4c30-bbee-be6faf651bf5")
+			(uuid "d1d7df63-23be-4aa8-93e1-25b33b429550")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Murata Electronics North America"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3a3a0a9-9839-4bd3-9cb4-03f2621d5157")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GQM2195C1H101JB01D"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1ed6483-ace2-40ff-8ae8-606c27dc61d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Surface Mount, MLCC"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22a4cc71-2680-4d79-94ef-d20376c05358")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 125°C"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "077c5be3-ab3c-4669-9f63-dd98ed8d084d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a93b31d-0f2e-4b70-9beb-a8bbfb294568")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e839e114-5d75-410c-a6f5-2e3a37f78766")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "5437"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a6597b0-38fe-4297-b5f0-488792c1c0fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±5%"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4d456b3-53e4-470f-ae1a-93bced28af5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "1.22"
-			(at 279.2222 231.3432 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "282c5c4c-2723-4d1a-825a-fc6ae9fa8fe2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805C")
 		(path "/379b2fd6-d1cb-42c7-abe3-e73e30b8e180")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.62496 -0.00024)
@@ -8898,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET Trans MOS N-Ch 60V 1.7A"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8910,43 +8384,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://www.onsemi.com/pub/Collateral/FDN5632N_F085-D.PDF"
+		(property "Part Number" "FDN5632N-F085"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf15e302-c1ed-4f28-81e6-3fd39862b089")
+			(uuid "d0f4a830-c3d7-4d1a-a67d-42a8fe3b961d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81811705-26fc-4e61-a39f-ec3794dd2158")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "FDN5632N-F085"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c257e772-1444-45d4-b0df-bcedfe59ea90")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SOT95P237X122-3N")
 		(path "/1ab7fb2b-ec8b-4e62-969c-4853b1ed84bf")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start -1.7 -1.5)
@@ -9174,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Description" "LED RED CLEAR 0805 SMD, 150080SS75000"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9198,91 +8651,22 @@
 				)
 			)
 		)
-		(property "COLOR" "Red"
-			(at 313.2582 239.4712 0)
+		(property "Part Number" "150080SS75000"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a14342a-10d2-4390-976e-932fe972706b")
+			(uuid "d94c794d-3e8f-472f-9635-0976799e5540")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "FORWARD VOLTAGE" "1.9V"
-			(at 313.2582 239.4712 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41c68739-407e-4e1f-a5ef-f75d44c97fdb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LUMINOUS INTENSITY" "60mcd"
-			(at 313.2582 239.4712 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "929d1f86-9b5b-469d-bf59-206df03eb32e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Wurth Elektronik"
-			(at 313.2582 239.4712 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dacaf87a-3ecc-47ca-96b0-38d79842766a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "150080SS75000"
-			(at 313.2582 239.4712 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "323d4a31-a860-4d72-b39e-223c37547040")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Surface Mount"
-			(at 313.2582 239.4712 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90b7b0ad-6d81-4050-89be-9422fd9104c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape"
-			(at 313.2582 239.4712 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efd3263b-6ee3-478f-872b-f4a2fec6b414")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-150080SS75000-MFG")
 		(path "/9fa02875-9cac-4870-b821-bf8f761e1fed")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.125 0.675)
@@ -9555,7 +8939,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9567,67 +8951,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "https://www.molex.com/webdocs/datasheets/pdf/en-us/0901200763_PCB_HEADERS.pdf"
-			(at 272.5547 -50.8635 0)
+		(property "Part Number" "90120-0763"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d150c09d-dd08-41f7-bd4a-1e2921b445f0")
+			(uuid "6f19e876-5e23-477d-b30a-d66e87d46f41")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Molex"
-			(at 272.5547 -50.8635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c70f3b4-b783-43a8-9081-e5a5382bce39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "90120-0763"
-			(at 272.5547 -50.8635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c17ecca0-5d0f-44cb-bf5a-1d2c38910941")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MOUNT" "Board-To-Board Connector, C-Grid III 90120 Series, Through Hole, Header, 3, 2.54 mm"
-			(at 272.5547 -50.8635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ecc825c-b6fc-4bc9-b437-2871898bbd8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PITCH" "2.54mm"
-			(at 272.5547 -50.8635 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24960df8-214b-46bd-b1f0-3ac79c039f09")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "FP-90120-0763-MFG")
 		(path "/3bcded3c-38bd-4c1d-b487-9e266ae85f2e")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 3.81 -1.27)
@@ -9851,7 +9190,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "/SERVO1_CTRL")
+			(net 3 "+5")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_paste_margin -1000)
@@ -9924,7 +9263,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 140 OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9948,127 +9287,22 @@
 				)
 			)
 		)
-		(property "DATASHEET URL" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1400V+7+WW"
-			(at 251.2187 -30.5435 0)
+		(property "Part Number" "ERJ-6ENF1400V"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b7335ba-525a-4b68-89f1-6ebfc5c15e9e")
+			(uuid "a857a384-dc9d-4e75-b3d1-d0bf0617f0aa")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.524 1.524)
+					(thickness 0.254)
 				)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "388f16f9-2f78-4c34-8826-96663b97e1a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "ERJ-6ENF1400V"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a605a961-8f05-4578-8aff-4694bff4c758")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55°C ~ 155°C"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60d40f14-87ba-49ff-8da4-87fe5be403f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGE / CASE" "0805 (2012 Metric)"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55e67ccf-dd5f-4896-a77a-0826459adae8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Cut Tape (CT)"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7a4b1e6-f480-4036-92f0-e4279b75a990")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "POWER (WATTS)" "0.125W, 1/8W"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ab59fbe-7b37-448e-af44-5b307cbe52a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QUANTITY AVAILABLE" "50700"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8737b5e0-d8b2-4bd9-abc1-152afd172a36")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TOLERANCE" "±1%"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0348dbcc-0bf0-4921-93e1-17c0861269fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "UNIT PRICE (USD)" "0.00729"
-			(at 251.2187 -30.5435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af93376e-54bd-421a-8070-4059ce34dcd7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "SMD-0805-RES")
 		(path "/5bbf77ef-c64f-4aa0-9bb7-75b20e01a230")
+		(sheetname "Root")
 		(sheetfile "MSB.kicad_sch")
 		(fp_line
 			(start 0.889 0.254)
