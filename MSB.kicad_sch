@@ -3955,7 +3955,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 175.26) (xy 204.47 175.26)
+			(xy 161.29 114.3) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "439e0d59-3797-4f31-ba41-75771b8b3bb3")
+	)
+	(wire
+		(pts
+			(xy 173.99 175.26) (xy 203.2 175.26)
 		)
 		(stroke
 			(width 0.254)
@@ -4255,16 +4265,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 114.3) (xy 195.58 114.3)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "97ab9a6c-c442-4d40-bb3f-983587e25cf3")
-	)
-	(wire
-		(pts
 			(xy 166.37 129.54) (xy 168.91 129.54)
 		)
 		(stroke
@@ -4282,6 +4282,16 @@
 			(type default)
 		)
 		(uuid "9a0b5ffe-6385-4ee1-b26b-78ae30c44ae6")
+	)
+	(wire
+		(pts
+			(xy 156.21 158.75) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c025c13-ac9b-4192-a932-61bd7b57c637")
 	)
 	(wire
 		(pts
@@ -4425,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b2a1b6ff-48ca-4d07-b494-fb9587f3080f")
+	)
+	(wire
+		(pts
 			(xy 198.12 55.88) (xy 195.58 55.88)
 		)
 		(stroke
@@ -4505,6 +4525,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 111.76) (xy 215.9 111.76)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "bdfa49de-a1fc-41e7-8172-04ea9d4238cc")
+	)
+	(wire
+		(pts
 			(xy 99.06 81.28) (xy 99.06 78.74)
 		)
 		(stroke
@@ -4575,6 +4605,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 111.76) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "dace39f4-b131-4f0f-a8cd-58afde3031d5")
+	)
+	(wire
+		(pts
 			(xy 38.1 71.12) (xy 38.1 73.66)
 		)
 		(stroke
@@ -4592,16 +4632,6 @@
 			(type default)
 		)
 		(uuid "dd0e5a97-0f4b-487d-9b3e-103d8b4cdf34")
-	)
-	(wire
-		(pts
-			(xy 215.9 111.76) (xy 198.12 111.76)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "e0721af8-71de-4b6d-9662-c6381dbc81e2")
 	)
 	(wire
 		(pts
@@ -4682,6 +4712,16 @@
 			(type default)
 		)
 		(uuid "f5005e76-451b-491a-9eaa-91d234ae938d")
+	)
+	(wire
+		(pts
+			(xy 161.29 134.62) (xy 161.29 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e988ee-4084-4ad0-8751-b87ced1231f5")
 	)
 	(wire
 		(pts
@@ -4912,6 +4952,50 @@
 			(justify left bottom)
 		)
 		(uuid "cb29b5f1-f389-4301-a464-5946e6ed41ee")
+	)
+	(global_label "SWCLK{slash}TCK"
+		(shape input)
+		(at 161.29 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d94daa-785b-4234-a046-295ed959a8a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 120.5677 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO{slash}TMS"
+		(shape input)
+		(at 156.21 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1dc5527-be00-497a-975f-d65ffb9fd24b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 120.8096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MSB-altium-import:GND")
@@ -8695,6 +8779,26 @@
 		(pin "PA7" input
 			(at 166.37 160.782 90)
 			(uuid "225971e3-7de0-4687-8ba7-2977c0d5e486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA13" input
+			(at 156.21 160.782 90)
+			(uuid "265450e6-ab79-434a-9202-89d6565bdb7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA14" input
+			(at 161.29 160.782 90)
+			(uuid "c011c2c4-0f1d-4652-b146-d43953de2a85")
 			(effects
 				(font
 					(size 1.27 1.27)
